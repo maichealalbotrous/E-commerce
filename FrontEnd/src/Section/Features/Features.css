@@ -1,0 +1,27 @@
+.Shild    
+{
+    margin-top: 3rem;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    font-size: 10px;
+    background-color: #fffcfc;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+
+}
+.Shild:hover{
+  transform: scale(1);  
+  transition: 0.2s;
+}
+
+.Features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

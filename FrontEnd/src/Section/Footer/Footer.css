@@ -1,0 +1,14 @@
+footer{
+    background-color: rgb(26, 26, 50);
+    color: white;
+    padding: 7px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+}
+
+footer h2 span{
+    color: rgba(255, 0, 0, 0.518);
+    font-weight: bold;
+}

@@ -1,0 +1,178 @@
+:root{
+    --navColor:#2b3445;
+}
+
+.TheBigContainar{
+    box-shadow: 0 0 15px black;
+}
+
+
+.Header_Nav{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color:var(--navColor);
+    font-weight: bold;
+}
+
+.Hot{
+    display: flex;
+}
+
+.Hot h4{
+box-shadow: 0 0 2px;
+border-radius: 20px;
+padding: 3px;
+font-size: 17px;
+margin-right: 10px;
+margin-left: 10px;
+width: 60px;
+text-align: center;
+background-color: #0606078c;
+}
+
+.Soshial_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.Show{
+    display: none;
+
+}
+
+
+@media  (max-width: 516px){
+    .Header_Nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Plus_Show {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+        width: 100%; 
+    }
+
+    .Show {
+        display: flex;
+        font-size: 30px;
+        cursor: pointer;
+        justify-content: flex-end; 
+        flex-grow: 1; 
+    }
+  
+
+   .Soshial_logo{
+    display: none;
+   }
+
+   .Display{
+    display: flex;
+    transform:translateY(-4px);
+    margin-left: 5px;
+   }
+  
+}
+
+
+/*======================================================================================
+======================================================================================*/
+.navbar {
+    display: flex;
+    text-align: center;
+}
+.navbar .navbar-brand{
+    color: black;
+    font-weight: bold;
+
+}
+
+.navbar form input{
+outline: none;
+border: none;
+
+
+}
+
+.navbar form{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 20px;
+    max-width: 600px;
+    
+}
+
+
+
+
+
+
+
+
+
+/*=======================================================================
+=======================================================================*/
+
+.dropdownNav{
+background-color: #98989880;
+border-radius: 6px;
+
+
+}
+.dropdownNav button{
+    margin-right:100px;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: black;
+
+
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link .dropdown-menu
+{
+    max-width: 20px;
+
+}
+
+
+/* 
+.navbar-brand{
+    display: none;
+} */
+ 
+
+
+
+/*=======================================================================
+=======================================================================*/
+
+.SmallPageNavBar{
+display: none;
+}
+
+
+
+
+
+@media  (max-width: 1000px){
+.largPageNavBar{
+    display: none;
+}
+.SmallPageNavBar{
+    display: block;
+}
+
+}

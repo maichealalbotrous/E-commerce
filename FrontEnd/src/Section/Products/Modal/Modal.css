@@ -1,0 +1,64 @@
+.modal
+{
+    width: 100%;
+}
+.modal .modal-body{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.modal .modal-body .imagen img{
+max-width: 150px;
+}
+
+.modal .modal-dialog .modal-content{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+.modal .modal-body .T_shirt_dis{
+ max-width: 100%;   
+}
+.modal .modal-body .T_shirt_dis p{
+    max-width: 40%;
+}
+.modal .modal-body .T_shirt_dis h1{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.modal .modal-body .T_shirt_dis h4{
+    color: red;
+    filter: drop-shadow(0 0 20px black);
+}
+
+
+.modal .modal-body .T_shirt_dis .T_shirt_color{
+    display: flex;
+    margin-top: 50px;
+    
+
+}
+.modal .modal-body .T_shirt_dis .T_shirt_color img{
+    border: 1px solid black;
+    margin: 3px;
+    cursor: pointer;
+
+}
+@media (min-width:900px) {
+
+
+    .modal .modal-dialog .modal-content{
+        width: 800px;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,50%);
+
+
+        
+    }
+}

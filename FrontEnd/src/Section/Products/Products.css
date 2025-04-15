@@ -1,0 +1,74 @@
+.CategoryDis{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-top: 4rem;
+    text-align: center;
+
+}
+.CategoryDis p{
+    font-weight:300;
+}
+
+.tab-content .tab-pane {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+.tab-content .tab-pane .CardOne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.tab-content .tab-pane .thecard
+{
+    margin: 2px;
+}
+.tab-content .tab-pane .PriceContainar{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.tab-content .tab-pane .Buy{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+
+.tab-content .tab-pane .PriceContainar .categoryPrice{
+color: green;
+filter: drop-shadow(0 0 10px green);
+}
+
+.tab-content .tab-pane .Buy .btn:hover,
+    .tab-content .tab-pane .Buy .btn:active,
+    .tab-content .tab-pane .Buy .btn:focus{
+        transform: scale(1.1);
+        transition: 0.2s;
+        background-color: rgb(1, 12, 61);
+        color: white;
+        border: none;
+        outline: none;
+        box-shadow: 0 0 20px black;
+}
+
+@media (max-width:1003px ) {
+    .CategoryDis{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
